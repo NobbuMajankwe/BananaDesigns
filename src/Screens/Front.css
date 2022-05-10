@@ -347,7 +347,7 @@ margin-top: 30px;
     box-shadow: 1px 2px 9px #00000040;
     border-radius: 0px;
     height: 100%;
-    width: 75%;
+    width: 90%;
   }
   
   .LeftPanel {
@@ -377,7 +377,7 @@ margin-top: 30px;
     align-items: center;
     border-top-right-radius: 0px;
     border-bottom-right-radius: 0px;
-    padding: 20px;
+    padding: 10px;
     background-color: white;
   }
   .RightPanel.hide{
@@ -393,7 +393,7 @@ margin-top: 30px;
     align-items: center;
     border-top-right-radius: 0px;
     border-bottom-right-radius: 0px;
-    padding: 20px;
+    padding: 10px;
     background-color: #ff9200;
   }
   .RightPanel2.hide{
@@ -485,7 +485,7 @@ margin-top: 30px;
     color: #383838;
   }
   .Orange-body{
-    width: 80%;
+    width: 90%;
     height: 95%;
   }
   .Orange-header {
@@ -607,7 +607,7 @@ margin-top: 30px;
   form {
     display: inherit;
     flex-direction: inherit;
-    width: 100%;
+    width: 90%;
     height: 80%;
     justify-content: space-between;
     align-items: flex-start;
@@ -675,4 +675,16 @@ margin-top: 30px;
   }
   
    
+}
+
+@media only screen and (max-width: 1080px) {
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    height: 80%;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+  }
 }
